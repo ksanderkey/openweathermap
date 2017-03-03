@@ -12,7 +12,8 @@ class CitiesWeather extends Model
      * @param $name
      * @return mixed
      */
-    public static function getByName($name) {
+    public static function getByName($name)
+    {
         return static::where('name', $name)->first();
     }
 

@@ -125,6 +125,13 @@ return [
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
     /*
+     | openweathermap api config
+     */
+
+    'openweathermap_api_key' => env('OPENWEATHERMAP_API_KEY', 'd718b388acea9c5381daebe774da5392'),
+    'openweathermap_api_url' => env('OPENWEATHERMAP_API_URL', 'http://api.openweathermap.org/data/2.5/weather?'),
+
+    /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
     |--------------------------------------------------------------------------
